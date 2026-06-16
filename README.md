@@ -34,4 +34,4 @@ El proyecto está estructurado para separar la lógica de control con la interfa
 
 ## 🧑‍💻 Autor
 
-## ** Rodraigo Andrade ** - *Desarrollador del Proyecto*
+## *Rodraigo Andrade* - *Desarrollador del Proyecto*
