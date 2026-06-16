@@ -11,7 +11,7 @@ while True:
         break  # Si lo logra, sale del bucle
     except ValueError:
         # Si el usuario puso una letra, se ejecuta esto en vez de crashear
-        print("¡Error! Por favor, introduce un número válido, no una letra.")#Error pusiste un carracter erroneo 
+        print("¡Error! Por favor, introduce un número válido, no una letra")#Error pusiste un carracter erroneo 
         
 if t!="" and n!="" and p!=0:# verificador de datos
 
