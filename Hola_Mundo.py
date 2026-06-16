@@ -5,3 +5,5 @@ p=input ("Ahora cuantos puntos va a tener esta tarea:   ")
 if t=="" or n=="" or p=="" 
 
     print("Ok entonces esta tarea es para: ", n ," y tiene que hacer: ",t," la cual tiene un valor de: ",p)
+else
+    print("No llenaste bien los datos requeridos" )
