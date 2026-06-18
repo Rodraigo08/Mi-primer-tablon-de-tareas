@@ -15,6 +15,6 @@ while True:
         
 if t!="" and n!="" and p!=0:# verificador de datos
 
-    print("Ok entonces esta tarea es para: ", n ," y tiene que hacer: ",t," la cual tiene un valor de: ",p)
+    print("Ok entonces esta tarea es para: {n} y tiene que hacer: {t} la cual tiene un valor de: {p})
 else:
     print("No llenaste bien los datos requeridos")
