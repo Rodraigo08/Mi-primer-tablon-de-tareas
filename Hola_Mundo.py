@@ -8,6 +8,12 @@ while True:
     try:
         # Intenta convertir la entrada a un número entero
         p = int(p_input) 
+        
+        dt= {
+        "tt":t,
+        "nn":n,
+        "pp":p
+        }
         break  # Si lo logra, sale del bucle
     except ValueError:
         # Si el usuario puso una letra, se ejecuta esto en vez de crashear
@@ -15,6 +21,6 @@ while True:
         
 if t!="" and n!="" and p!=0:# verificador de datos
 
-    print("Ok entonces esta tarea es para: {n} y tiene que hacer: {t} la cual tiene un valor de: {p})
+    print(f"Ok entonces esta tarea es para: {n} y tiene que hacer: {t} la cual tiene un valor de: {p}")
 else:
     print("No llenaste bien los datos requeridos")
